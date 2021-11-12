@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "users",
+  "info": {
+    "name": "app_users",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "unique_id": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "username": {
+      "type": "string",
+      "required": true
+    },
+    "password": {
+      "type": "password",
+      "required": true
+    },
+    "passwordConf": {
+      "type": "password",
+      "required": true
+    }
+  }
+}

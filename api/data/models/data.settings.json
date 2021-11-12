@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "datas",
+  "info": {
+    "name": "data"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sub": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "name": {
+      "type": "string"
+    },
+    "vid": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "string"
+    },
+    "data": {
+      "type": "richtext"
+    },
+    "locale": {
+      "type": "string"
+    },
+    "father": {
+      "type": "string"
+    },
+    "mother": {
+      "type": "string"
+    }
+  }
+}
